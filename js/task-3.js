@@ -1,8 +1,6 @@
 "use strict";
 
 class StringBuilder {
-    value = "";
-    
     constructor(args) {
         this.value = args;
     }

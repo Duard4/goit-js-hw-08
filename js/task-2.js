@@ -1,8 +1,6 @@
 "use strict";
 
 class Storage {
-  items = [];
-
   constructor(args) {
     this.items = args;
   }
