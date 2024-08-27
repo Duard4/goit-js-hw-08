@@ -1,18 +1,19 @@
 "use strict";
 
 class Storage {
+  #items;
   constructor(args) {
-    this.items = args;
+    this.#items = args;
   }
   getItems() {
-    return this.items;
+    return this.#items;
   }
   addItem(newItem) {
-    this.items.push(newItem)
+    this.#items.push(newItem)
   }
   removeItem(itemToRemove) {
-    const removeIndex = this.items.indexOf(itemToRemove);
-    if (removeIndex != -1) this.items.splice(removeIndex, 1);
+    const removeIndex = this.#items.indexOf(itemToRemove);
+    if (removeIndex != -1) this.#items.splice(removeIndex, 1);
   }
 }
 
