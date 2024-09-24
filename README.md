@@ -1,2 +1,2 @@
-# goit-js-hw-06
-GoIT Fullstack JS 6st homework
+# goit-js-hw-08
+GoIT Fullstack JS 8st homework
